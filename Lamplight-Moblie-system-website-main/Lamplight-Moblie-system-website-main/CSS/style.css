@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/**************************************************/
+/* ************     HERO SECTION   ************* */
+/**************************************************/
+
+.color-background {
+  height: 100vh;
+  background: rgb(255, 200, 255);
+  background: linear-gradient(
+    217deg,
+    rgba(255, 200, 255, 0.9360994397759104) 6%,
+    rgba(237, 115, 240, 0.94) 38%,
+    rgba(152, 128, 222, 0.94) 69%,
+    rgba(156, 207, 207, 0.94) 82%,
+    rgba(158, 217, 218, 0.94) 100%
+  );
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.primery-heading-logo {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  justify-items: start;
+  align-items: center;
+}
+
+.logo-img {
+  width: 3.5rem;
+}
+
+.sub {
+  display: inline-block;
+
+  font-size: 2rem;
+}
+
+.heading-primery {
+  font-size: 8rem;
+  text-transform: uppercase;
+  margin-bottom: 7rem;
+}
+
+.heading-sub {
+  display: block;
+}
+
+.main-img {
+  max-width: 80%;
+}
+.imgs {
+  margin: 0 auto;
+  /* margin-left: 10rem; */
+}
+.downloads {
+  display: flex;
+
+  font-size: 1.6rem;
+  /* padding-right: 1.2rem; */
+  /* display: inline-block; */
+  /* color: #444; */
+}
+
+.side-by-side {
+  padding: 1.2rem;
+  margin-right: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.link-download:visited,
+.link-download:link {
+  /* padding-right: 2rem; */
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  color: #555;
+}
+
+.icon {
+  text-align: center;
+  font-size: 4rem;
+  color: #555;
+}
+
+/*! description section */
+.description {
+  background-color: #161f42;
+  color: #a4afdb;
+  height: 100vh;
+}
+
+.main-descr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hr-style-1 {
+  border: 2px solid #5062ad;
+}
+
+.heading-secondary {
+  line-height: 7rem;
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-bottom: 10.5rem;
+}
+
+.decrip-text {
+  font-size: 2rem;
+}
+
+.desc-img {
+  width: 55%;
+}
+
+/*? FEATURED SECTION */
+
+.features {
+  background-color: #f5f6fc;
+  height: 100vh;
+  color: #161f42;
+}
+
+.hr-style-2 {
+  border: 2px solid #081239;
+}
+
+.row-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.col-1-of-3 {
+  text-align: center;
+  padding-top: 1.6rem;
+  border: 3px solid;
+  margin: 0 auto;
+}
+
+.img-feat {
+  width: 45%;
+  /* padding: 2.1rem auto; */
+  padding-bottom: 3.2rem;
+}
+
+.text-feat {
+  padding: 1.2rem;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+/*? REVIEW SECTION */
+.review {
+  color: #161f42;
+  padding: 4.8rem;
+  background-color: #a4afdb;
+  height: 100vh;
+}
+
+.review-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.review-text {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.review-text-sub {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.review-text-section {
+  margin-bottom: 0;
+}
+
+/*! ABOUT SECTION */
+
+.about-section {
+  background-color: #f5f6fc;
+  color: #161f42;
+  height: 100vh;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-about-class {
+  width: 90%;
+}
+
+.about-pra {
+  font-size: 2rem;
+}
+
+.text-about section {
+  display: inline-block;
+  margin-bottom: 17rem;
+}
+
+/* ?contact us */
+.hr-style-3 {
+  border: 2px solid #a4afdb;
+}
+
+.contact-us {
+  color: #a4afdb;
+  background-color: #081239;
+  font-size: 2rem;
+  height: 100vh;
+}
+
+.contact-info-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.heading-secondary-cotact {
+  line-height: 7rem;
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  display: inline;
+}
+
+.contact-info {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.heading-sub-info {
+  display: inline;
+  margin-right: 2.4rems;
+}
+
+.media-icon {
+  cursor: pointer;
+  width: 4.8rem;
+  margin-right: 1.6rem;
+}
+
+.footer-img {
+  width: 100%;
+  margin-top: 8.5rem;
+}

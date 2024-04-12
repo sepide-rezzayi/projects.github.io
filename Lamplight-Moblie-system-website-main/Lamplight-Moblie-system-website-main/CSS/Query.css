@@ -1,0 +1,291 @@
+@media (max-width: 84em) {
+  html {
+    font-size: 56%;
+  }
+
+  .main-img {
+    max-width: 80%;
+  }
+  .review-text-sub {
+    margin-bottom: 4rem;
+  }
+  .contact-info-section {
+    margin-bottom: 0rem;
+  }
+  .heading-secondary-cotact {
+    margin-right: 3rem;
+  }
+  .contact-us {
+    height: auto;
+  }
+  .footer-img {
+    margin-top: 12.3rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main-img {
+    max-width: 85%;
+  }
+  .review-text-sub {
+    margin-bottom: 5.5rem;
+  }
+  .features .heading-secondary,
+  .about-section .heading-secondary {
+    margin-bottom: 8rem;
+  }
+  .img-about {
+    width: 110%;
+  }
+  .contact-info-section {
+    margin-bottom: 0rem;
+  }
+  .contact-us {
+    height: auto;
+  }
+  .footer-img {
+    margin-top: 9.7rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .color-background,
+  .description,
+  .review,
+  .features,
+  .about-section,
+  .contact-us {
+    height: auto;
+  }
+  .primery-heading-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .logo-img {
+    width: 2.5rem;
+  }
+  .sub {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+
+  .contact-info-section {
+    margin-bottom: 0;
+  }
+  .heading-secondary-cotact {
+    margin-right: 4rem;
+  }
+  .footer-img {
+    margin-top: 5rem;
+  }
+}
+
+/**************************/
+/*? BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  html {
+    font-size: 31.25%;
+  }
+  .color-background,
+  .description,
+  .review,
+  .features,
+  .about-section,
+  .contact-us {
+    height: auto;
+  }
+  .main-img {
+    max-width: 85%;
+  }
+  .desc-img {
+    margin-top: -5rem;
+  }
+  .features {
+    height: 60vh;
+  }
+  .heading-secondary {
+    margin-bottom: 15rem;
+  }
+  .row-section {
+    margin-top: 15 rem;
+  }
+
+  /* review section */
+  .review-text-sub {
+    margin-bottom: 4rem;
+  }
+  .footer-img {
+    margin-top: 6.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  html {
+    font-size: 31.25%;
+  }
+  .logo-img {
+    width: 3rem;
+  }
+  .sub {
+    font-size: 2rem;
+  }
+  .color-background {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .side-by-side .heading-sub {
+    font-size: 2rem;
+  }
+  .heading-primery {
+    text-align: center;
+    font-size: 8rem;
+  }
+
+  .downloads {
+    display: flex;
+    /* justify-items: center; */
+
+    justify-content: center;
+  }
+  .main-img {
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+  .side-by-side {
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+  .icon {
+    font-size: 5rem;
+  }
+
+  /* description */
+  .description {
+    height: auto;
+  }
+  .description .heading-sub {
+    text-align: center;
+  }
+  .decrip-text {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .description .heading-secondary {
+    margin-bottom: 10rem;
+  }
+  .main-descr {
+    display: block;
+  }
+  .desc-img {
+    display: none;
+  }
+
+  /* ? features */
+  .features {
+    height: auto;
+  }
+  .features .heading-sub {
+    text-align: center;
+  }
+  .row-section {
+    grid-template-columns: 1fr;
+  }
+  .text-feat {
+    font-size: 3rem;
+  }
+  .img-feat {
+    max-width: 20%;
+  }
+
+  /* ? review section */
+  .review {
+    height: auto;
+  }
+  .review .heading-secondary {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .review-text {
+    font-size: 3rem;
+  }
+  .review-section {
+    grid-template-columns: 1fr;
+  }
+  /* ? about section */
+  .about-section {
+    height: auto;
+  }
+  .text-about div .heading-secondary {
+    text-align: center;
+  }
+  .about-content section {
+    margin-bottom: 1rem;
+  }
+  .about-content .heading-secondary {
+    margin-bottom: 4rem;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .about-pra br {
+    content: "";
+  }
+  .about-pra br::after {
+    content: " ";
+  }
+
+  div .about-pre {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .img-about {
+    display: none;
+  }
+  .about-pra {
+    font-size: 3rem;
+  }
+  .review-text-sub {
+    font-size: 2rem;
+  }
+  .contact-us {
+    height: auto;
+  }
+  .contact-info-section {
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+  }
+  .heading-sub-info span {
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .footer-img {
+    display: none;
+  }
+}
